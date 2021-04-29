@@ -1,5 +1,7 @@
 import { Button } from './Button'
 
+import '../styles/sidebar.scss';
+
 type Genre = {
   id: number;
   name: 'action' | 'comedy' | 'documentary' | 'drama' | 'horror' | 'family';

@@ -10,7 +10,6 @@ import { api } from './services/api';
 
 import './styles/global.scss';
 
-import './styles/sidebar.scss';
 import './styles/content.scss';
 
 interface GenreResponseProps {
