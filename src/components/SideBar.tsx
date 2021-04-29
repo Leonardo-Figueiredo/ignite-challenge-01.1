@@ -1,12 +1,7 @@
 import { Button } from './Button'
+import { Genre } from '../entities/Genre'
 
 import '../styles/sidebar.scss';
-
-type Genre = {
-  id: number;
-  name: 'action' | 'comedy' | 'documentary' | 'drama' | 'horror' | 'family';
-  title: string;
-}
 
 interface SideBarProps {
   genres: Genre[]
